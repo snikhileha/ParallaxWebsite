@@ -1,0 +1,73 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .img1, .img2, .img3, .img4{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
+  
+  .img1{
+    background-image:url('https://c1.staticflickr.com/5/4090/5160976914_cea131ed5a_b.jpg');
+    min-height:100%;
+  }
+  
+  .img2{
+    background-image:url('https://1.bp.blogspot.com/-YenpMIPLuVk/Wb5oTiB9qOI/AAAAAAAA0kk/ZuqryvCmVbIEjil6TIBcthcUFYD_gesnwCLcBGAs/s1600/IMG_2254.jpg');
+    min-height:100%;
+  }
+  
+  .img3{
+    background-image:url('https://c4.wallpaperflare.com/wallpaper/224/546/526/palaces-mysore-palace-india-mysore-wallpaper-preview.jpg');
+    min-height:400px;
+  }
+  .img4{
+    background-image:url('https://c0.wallpaperflare.com/preview/557/43/750/india-kolhapur-rankala-lake-palace.jpg');
+    min-height:100%;
+  }
+  
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+   .section-dark{
+    background-color:#282e34;
+    color:rgb(147, 227, 237);
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:rgb(147, 227, 237);
+    padding:20px;
+  }
+  
+  
+  
+  @media(max-width:568px){
+    .img1, .img2, .img3,.img4{
+      background-attachment:scroll;
+    }
+  }
+  
